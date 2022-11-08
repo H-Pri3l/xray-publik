@@ -243,7 +243,7 @@ echo 'Please send in your comments and/or suggestions to zaf@vsnl.com'
 # banner /etc/issue.net
 sleep 1
 echo -e "[ ${green}INFO$NC ] Settings banner"
-wget -q -O /etc/issue.net "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/issue.net"
+wget -q -O /etc/issue.net "https://raw.githubusercontent.com/H-Pri3l/Mantap/main/ssh/issue.net"
 chmod +x /etc/issue.net
 echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
@@ -272,7 +272,7 @@ netfilter-persistent reload
 cd /usr/bin
 # menu
 wget -O menu "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu.sh"
-wget -O menu-vmess "https://raw.githubusercontent.com/H-Pri3l/xray-publikmain/menu/menu-vmess.sh"
+wget -O menu-vmess "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu-vless.sh"
 wget -O running "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/running.sh"
 wget -O clearcache "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/clearcache.sh"
@@ -287,14 +287,14 @@ wget -O renew "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/re
 wget -O hapus "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/hapus.sh"
 wget -O cek "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/cek.sh"
 wget -O member "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/member.sh"
-wget -O delete "https://raw.githubusercontent.com/H-Pri3l/xray-publik//main/ssh/delete.sh"
+wget -O delete "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/delete.sh"
 wget -O autokill "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/autokill.sh"
 wget -O ceklim "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/ceklim.sh"
 wget -O tendang "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/tendang.sh"
 
 # menu system
 wget -O menu-set "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu-set.sh"
-wget -O menu-domain "https://raw.githubusercontent.com/H-Pri3l/xray-publik//main/menu/menu-domain.sh"
+wget -O menu-domain "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu-domain.sh"
 wget -O add-host "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/add-host.sh"
 wget -O port-change "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/port/port-change.sh"
 wget -O certv2ray "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/xray/certv2ray.sh"
@@ -302,7 +302,7 @@ wget -O menu-webmin "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/
 wget -O speedtest "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/speedtest_cli.py"
 wget -O about "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/about.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/auto-reboot.sh"
-wget -O restart "https://raw.githubusercontent.com/H-Pri3l/xray-publik//main/menu/restart.sh"
+wget -O restart "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/restart.sh"
 wget -O bw "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/bw.sh"
 
 # change port
