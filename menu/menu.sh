@@ -93,7 +93,7 @@ echo -e " [\e[36m•1\e[0m] SSH & OpenVPN Menu  [\e[36m•5\e[0m] SYSTEM Menu"
 echo -e " [\e[36m•2\e[0m] Vmess Menu          [\e[36m•6\e[0m] Status Service"
 echo -e " [\e[36m•3\e[0m] Vless Menu          [\e[36m•7\e[0m] Clear RAM Cache"
 echo -e " [\e[36m•4\e[0m] Trojan Go Menu      [\e[36m•8\e[0m] Trojan GFW Menu"
-echo -e " [\e[36m•9\e[0m] SLOWDNS
+echo -e " [\e[36m•9\e[0m] SLOWDNS"
 echo -e   ""
 echo -e   " Press x or [ Ctrl+C ] • To-Exit-Script"
 echo -e   ""
