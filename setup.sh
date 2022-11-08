@@ -125,7 +125,7 @@ mkdir -p /var/lib/SIJA >/dev/null 2>&1
 echo "IP=" >> /var/lib/SIJA/ipvps.conf
 
 echo ""
-wget -q https://raw.githubusercontent.com/bracoli/v4/main/tools.sh;chmod +x tools.sh;./tools.sh
+wget -q https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/tools.sh;chmod +x tools.sh;./tools.sh
 rm tools.sh
 clear
 yellow "Add Domain for vmess/vless/trojan dll"
@@ -150,15 +150,15 @@ echo -e "$green      Install SSH / WS               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/bracoli/v4/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install XRAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
 clear
-wget https://raw.githubusercontent.com/bracoli/v4/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/bracoli/v4/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -203,7 +203,7 @@ echo ""
 echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH		: 22"  | tee -a log-install.txt
-echo "   - SSH Websocket	: 80 [OFF]" | tee -a log-install.txt
+echo "   - SSH Websocket	: 80" | tee -a log-install.txt
 echo "   - SSH SSL Websocket	: 443" | tee -a log-install.txt
 echo "   - Stunnel4		: 447, 777" | tee -a log-install.txt
 echo "   - Dropbear		: 109, 143" | tee -a log-install.txt
@@ -236,7 +236,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By ADAM SIJA ]-==============="
+echo "===============-[ Script Created By YT ZIXSTYLE ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
