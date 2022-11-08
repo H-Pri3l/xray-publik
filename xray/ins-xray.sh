@@ -451,8 +451,8 @@ END
 # Installing Trojan Go Service
 cat > /etc/systemd/system/trojan-go.service << END
 [Unit]
-Description=Trojan-Go Service Mod By ADAM SIJA
-Documentation=github.com/adammoi/vipies
+Description=Trojan-Go Service Mod By YT ZIXSTYLE
+Documentation=github.com/H-Pri3L/vipies
 After=network.target nss-lookup.target
 
 [Service]
