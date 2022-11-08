@@ -159,6 +159,9 @@ sleep 2
 clear
 wget https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 wget https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+# Install SlowDNS
+wget https://raw.githubusercontent.com/H-Pri3l/Mantap/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
+rm -f /root/install-sldns
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -202,6 +205,7 @@ echo "------------------------------------------------------------"
 echo ""
 echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
+echo "   - SlowDNS SSH             : ALL Port SSH"  | tee -a log-install.txt
 echo "   - OpenSSH		: 22"  | tee -a log-install.txt
 echo "   - SSH Websocket	: 80" | tee -a log-install.txt
 echo "   - SSH SSL Websocket	: 443" | tee -a log-install.txt
