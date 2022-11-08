@@ -274,7 +274,7 @@ cd /usr/bin
 wget -O menu "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu.sh"
 wget -O menu-vmess "https://raw.githubusercontent.com/H-Pri3l/xray-publikmain/menu/menu-vmess.sh"
 wget -O menu-vless "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu-vless.sh"
-wget -O running "https://raw.githubusercontent.com/bracoli/H-Pri3l/xray-publik/main/menu/running.sh"
+wget -O running "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/running.sh"
 wget -O clearcache "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/clearcache.sh"
 wget -O menu-trgo "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu-trgo.sh"
 wget -O menu-trojan "https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/menu/menu-trojan.sh"
