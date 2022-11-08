@@ -73,11 +73,11 @@ echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━�
 echo -e " 8888888888P 8888888 Y88b   d88P  .d8888b. 88888888888 Y88b   d88P 888      8888888888" 
 echo -e "       d88P    888    Y88b d88P  d88P  Y88b    888      Y88b d88P  888      888"        
 echo -e "      d88P     888     Y88o88P   Y88b.         888       Y88o88P   888      888"        
-echo -e "     d88P      888      Y888P     "Y888b.      888        Y888P    888      8888888"    
-echo -e "    d88P       888      d888b        "Y88b.    888         888     888      888"        
-echo -e "   d88P        888     d88888b         "888    888         888     888      888"        
+echo -e "     d88P      888      Y888P     °Y888b.      888        Y888P    888      8888888"    
+echo -e "    d88P       888      d888b        °Y88b.    888         888     888      888"        
+echo -e "   d88P        888     d88888b         °888    888         888     888      888"        
 echo -e "  d88P         888    d88P Y88b  Y88b  d88P    888         888     888      888"        
-echo -e " d8888888888 8888888 d88P   Y88b  "Y8888P"     888         888     88888888 8888888888"
+echo -e " d8888888888 8888888 d88P   Y88b  °Y8888P°     888         888     88888888 8888888888"
 echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "                                                                                         "
 echo -e "\e[33m Operating System     \e[0m:  "`hostnamectl | grep "Operating System" | cut -d ' ' -f5-`	
@@ -92,7 +92,8 @@ echo -e "\e[33m ━━━━━━━━━━━━━━━━━━━━━�
 echo -e " [\e[36m•1\e[0m] SSH & OpenVPN Menu  [\e[36m•5\e[0m] SYSTEM Menu"
 echo -e " [\e[36m•2\e[0m] Vmess Menu          [\e[36m•6\e[0m] Status Service"
 echo -e " [\e[36m•3\e[0m] Vless Menu          [\e[36m•7\e[0m] Clear RAM Cache"
-echo -e " [\e[36m•4\e[0m] Trojan Go Menu      [\e[36m•8\e[0m] Trojan GFW Menu"                  
+echo -e " [\e[36m•4\e[0m] Trojan Go Menu      [\e[36m•8\e[0m] Trojan GFW Menu"
+echo -e " [\e[36m•9\e[0m] SLOWDNS
 echo -e   ""
 echo -e   " Press x or [ Ctrl+C ] • To-Exit-Script"
 echo -e   ""
@@ -108,5 +109,6 @@ case $opt in
 6) clear ; running ;;
 7) clear ; clearcache ;;
 8) clear ; menu-trojan ;;
+9) clear ; Slowdns ;;
 x) exit ;;
 esac
