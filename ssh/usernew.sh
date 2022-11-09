@@ -70,7 +70,6 @@ echo -e "======================SLOWDNS==================="
 echo -e "Domain Name System(DNS): 8.8.8.8"
 echo -e "Name Server(NS): $sldomain"
 echo -e "DNS PUBLIC KEY: $slkey"
-echo -e "Domain SlowDNS: $domain"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 #echo -e "OpenVPN Config : http://$IP:81/" | tee -a /etc/log-create-user.log
 #echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
@@ -100,6 +99,12 @@ echo -e "SSH-WS      : $portsshws" | tee -a /etc/log-create-user.log
 echo -e "SSH-SSL-WS  : $wsssl" | tee -a /etc/log-create-user.log
 echo -e "SSL/TLS     : $ssl" | tee -a /etc/log-create-user.log
 echo -e "UDPGW       : 7100-7300" | tee -a /etc/log-create-user.log
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
+echo -e "======================SLOWDNS==================="
+echo -e "Domain Name System(DNS): 8.8.8.8"
+echo -e "Name Server(NS): $sldomain"
+echo -e "DNS PUBLIC KEY: $slkey"
+echo -e "Domain SlowDNS: $sldomain"
 #echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
 #echo -e "OpenVPN Config : http://$IP:81/" | tee -a /etc/log-create-user.log
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m" | tee -a /etc/log-create-user.log
