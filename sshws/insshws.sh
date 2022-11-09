@@ -20,7 +20,7 @@ chmod +x /usr/local/bin/ws-stunnel
 #wget -O /etc/systemd/system/ws-openssh.service https://raw.githubusercontent.com/sallxd/sl/main/sshws/service-wsopenssh && chmod +x /etc/systemd/system/ws-openssh.service
 
 #System Dropbear Websocket-SSH Python
-wget -O /etc/systemd/system/ws-dropbear.service https://raw.githubusercontent.com/H-Pri3l/xray-publikmain/sshws/service-wsdropbear && chmod +x /etc/systemd/system/ws-dropbear.service
+wget -O /etc/systemd/system/ws-dropbear.service https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/sshws/service-wsdropbear && chmod +x /etc/systemd/system/ws-dropbear.service
 
 #System SSL/TLS Websocket-SSH Python
 wget -O /etc/systemd/system/ws-stunnel.service https://raw.githubusercontent.com/H-Pri3l/xray-publik/main/sshws/ws-stunnel.service && chmod +x /etc/systemd/system/ws-stunnel.service
