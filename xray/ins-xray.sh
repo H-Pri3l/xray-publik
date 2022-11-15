@@ -112,7 +112,7 @@ cat > /etc/xray/config.json << END
        "streamSettings":{
          "network": "ws",
             "wsSettings": {
-                "path": "/worryfree"
+                "path": "/vless"
           }
         }
      },
@@ -153,7 +153,7 @@ cat > /etc/xray/config.json << END
        "streamSettings":{
            "network": "ws",
            "wsSettings": {
-               "path": "/worryfree"
+               "path": "/trojan-ws"
             }
          }
      },
