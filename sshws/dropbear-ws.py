@@ -224,7 +224,7 @@ class ConnectionHandler(threading.Thread):
 def print_usage():
     print 'Usage: proxy.py -p <port>'
     print '       proxy.py -b <bindAddr> -p <port>'
-    print '       proxy.py -b 0.0.0.0 -p 80'
+    print '       proxy.py -b 0.0.0.0 -p 800'
 
 def parse_args(argv):
     global LISTENING_ADDR
