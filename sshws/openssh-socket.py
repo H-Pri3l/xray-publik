@@ -12,7 +12,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:88'
-RESPONSE = 'HTTP/1.1 101 WebSocket bye MDX CHANNEL\r\nContent-Length: 104857600000\r\n\r\n'
+RESPONSE = 'HTTP/1.1 101 WebSocket by Yt Zixstyle\r\nContent-Length: 104857600000\r\n\r\n'
 
 class Server(threading.Thread):
     def __init__(self, host, port):
@@ -224,7 +224,7 @@ class ConnectionHandler(threading.Thread):
 def print_usage():
     print 'Usage: proxy.py -p <port>'
     print '       proxy.py -b <bindAddr> -p <port>'
-    print '       proxy.py -b 0.0.0.0 -p 80'
+    print '       proxy.py -b 0.0.0.0 -p 800'
 
 def parse_args(argv):
     global LISTENING_ADDR
